@@ -4,7 +4,7 @@
 h1 {text-align: center;}
 p {text-align: center;}
 div {text-align: center;}
-div {text-align: vertical-center;}
+
 </style>
 <body>
     <h1>GDis-firmware-uploader</h1>
@@ -17,8 +17,10 @@ div {text-align: vertical-center;}
           : "https://unpkg.com/esp-web-tools/dist/web/install-button.js?module"
       );
     </script>
-    <div>
+<div class="container">
+  <div class="vertical-center">
     <esp-web-install-button manifest="module/manifest.json"></esp-web-install-button>    
-    </div>
+  </div>
+</div>
 </body>
 </html>
