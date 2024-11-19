@@ -2,7 +2,15 @@
 <html>
 <body>
     <h1>GDis-firmware-uploader</h1>
-    <script type="module" src="https://unpkg.com/esp-web-tools@3.4.2/dist/web/install-button.js?module"></script>
+    </script>
+    <script module>
+      import(
+        // In development we import locally.
+        window.location.hostname === "localhost"
+          ? "/dist/web/install-button.js"
+          : "https://unpkg.com/esp-web-tools/dist/web/install-button.js?module"
+      );
+    </script>
     <esp-web-install-button manifest="test/manifest.json"></esp-web-install-button>
 </body>
 </html>
