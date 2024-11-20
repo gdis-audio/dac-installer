@@ -10,7 +10,7 @@
         { "path": "esp32s3-ota_data_initial.bin", "offset": 32768 },
         { "path": "esp32s3-partition-table.bin", "offset": 57344 },
         { "path": "esp32s3-recovery.bin", "offset": 65536 },
-        { "path": "esp32s3-squeezelite.bin":, "offset" 65536 },
+        { "path": "esp32s3-squeezelite.bin", "offset": 65536 },
         { "path": "esp32s3-settings.bin", "offset": 65536 },
         { "path": "esp32-c3.bin", "offset": 65536 },
       ]
