@@ -16,7 +16,7 @@
     {
       "chipFamily": "ESP32-C3",
       "parts": [
-        { "path": "bootloader_dout_40m.bin", "offset": 0 },
+        { "path": "bootloader_dio_40m.bin", "offset": 0 },
         { "path": "partitions.bin", "offset": 32768 },
         { "path": "boot_app0.bin", "offset": 57344 },
         { "path": "esp32-c3.bin", "offset": 65536 }
