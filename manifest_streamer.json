@@ -1,1 +1,19 @@
-
+{
+  "name": "Streamer_firmware",
+  "version": "2021.10.3",
+  "funding_url": "https://esphome.io/guides/supporters.html",
+  "builds": [
+    {
+      "chipFamily": "ESP32-S3",
+      "parts": [
+        { "path": "firmware/s3/esp32s3-bootloader.bin", "offset": 0 },
+        { "path": "firmware/s3/esp32s3-partition-table.bin", "offset": 32768 },
+        { "path": "firmware/s3/esp32s3-nvs.bin", "offset": 36864 },
+        { "path": "firmware/s3/esp32s3-ota_data_initial.bin", "offset": 53248 },
+        { "path": "firmware/s3/esp32s3-recovery.bin", "offset": 65536 },
+        { "path": "firmware/s3/esp32s3-squeezelite.bin", "offset": 1376256 },
+        { "path": "firmware/s3/esp32s3-settings.bin", "offset": 4128768 },
+      ]
+    }
+  ]
+}
