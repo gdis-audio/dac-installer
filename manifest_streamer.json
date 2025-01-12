@@ -10,7 +10,7 @@
             "chipFamily": "ESP32-S3",
             "parts": [
                 {
-                    "path": "common-esp32s3-2.1672-16-bootloader.bin",
+                    "path": "firmware/s3/esp32s3-bootloader.bin",
                     "offset": "0x0"
                 },
                 {
