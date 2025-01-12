@@ -10,23 +10,23 @@
             "chipFamily": "ESP32-S3",
             "parts": [
                 {
-                    "path": "firmware/c3/master-v4.3-I2S-4MFlash-2.1681-32-squeezelite.bin",
+                    "path": "firmware/s3/master-v4.3-I2S-4MFlash-2.1681-32-squeezelite.bin",
                     "offset": "0x150000"
                 },
                 {
-                    "path": "firmware/c3/master-v4.3-I2S-4MFlash-2.1681-32-recovery.bin",
+                    "path": "firmware/s3/master-v4.3-I2S-4MFlash-2.1681-32-recovery.bin",
                     "offset": "0x10000"
                 },
                 {
-                    "path": "firmware/c3/master-v4.3-I2S-4MFlash-2.1681-32-ota_data_initial.bin",
+                    "path": "firmware/s3/master-v4.3-I2S-4MFlash-2.1681-32-ota_data_initial.bin",
                     "offset": "0xd000"
                 },
                 {
-                    "path": "firmware/c3/master-v4.3-I2S-4MFlash-2.1681-32-bootloader.bin",
+                    "path": "firmware/s3/master-v4.3-I2S-4MFlash-2.1681-32-bootloader.bin",
                     "offset": "0x1000"
                 },
                 {
-                    "path": "firmware/c3/master-v4.3-I2S-4MFlash-2.1681-32-partition-table.bin",
+                    "path": "firmware/s3/master-v4.3-I2S-4MFlash-2.1681-32-partition-table.bin",
                     "offset": "0x8000"
                 }
             ]
