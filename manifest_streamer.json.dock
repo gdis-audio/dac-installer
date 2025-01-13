@@ -1,19 +1,44 @@
 {
-  "name": "Streamer_firmware",
-  "version": "2021.10.3",
-  "funding_url": "https://esphome.io/guides/supporters.html",
-  "builds": [
-    {
-      "chipFamily": "ESP32-S3",
-      "parts": [
-        { "path": "firmware/s3/esp32s3-bootloader.bin", "offset": 0 },
-        { "path": "firmware/s3/esp32s3-partition-table.bin", "offset": 32768 },
-        { "path": "firmware/s3/esp32s3-nvs.bin", "offset": 36864 },
-        { "path": "firmware/s3/esp32s3-ota_data_initial.bin", "offset": 53248 },
-        { "path": "firmware/s3/esp32s3-recovery.bin", "offset": 65536 },
-        { "path": "firmware/s3/esp32s3-squeezelite.bin", "offset": 1376256 },
-        { "path": "firmware/s3/esp32s3-settings.bin", "offset": 4128768 },
-      ]
-    }
-  ]
+    "name": "hifi-esp32s3",
+    "version": "2.1672",
+    "home_assistant_domain": "slim_player",
+    "funding_url": "https://esphome.io/guides/supporters.html",
+    "new_install_prompt_erase": true,
+    "new_install_improv_wait_time": 20,
+    "builds": [
+        {
+            "chipFamily": "ESP32-S3",
+            "parts": [
+                {
+                    "path": "firmware/s3/common-esp32s3-2.1672-16-bootloader.bin",
+                    "offset": "0x0"
+                },
+                {
+                    "path": "firmware/s3/common-esp32s3-2.1672-16-partition-table.bin",
+                    "offset": "0x8000"
+                },
+                {
+                    "path": "firmware/s3/common-esp-nvs.bin",
+                    "offset": "0x9000"
+                },
+                {
+                    "path": "firmware/s3/common-esp32s3-2.1672-16-ota_data_initial.bin",
+                    "offset": "0xd000"
+                },
+                {
+                    "path": "firmware/s3/common-esp32s3-2.1672-16-recovery.bin",
+                    "offset": "0x10000"
+                },
+                {
+                    "path": "firmware/s3/common-esp32s3-2.1672-16-squeezelite.bin",
+                    "offset": "0x150000"
+                },
+                {
+                    "path": "firmware/s3/hifi-esp32s3-settings.bin",
+                    "offset": "0x3f0000"
+                }
+            ]
+        }
+    ],
+    "manifest_name": "manifest-hifi-esp32s3-2.1672-16.json"
 }
