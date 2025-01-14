@@ -40,5 +40,5 @@
             ]
         }
     ],
-    "manifest_name": "manifest_streamer.json"
+    "manifest_name": "manifest_streamerS3.json"
 }
