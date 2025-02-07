@@ -6,16 +6,16 @@
     {
       "chipFamily": "ESP32-C3",
       "parts": [
-        { "path": "firmware/c3/Hercules_iremote_oled.ino.bootloader.bin",
+        { "path": "firmware/c3/wifi_web9.ino.bootloader.bin",
           "offset": 0 
         },
-        { "path": "firmware/c3/Hercules_iremote_oled.ino.partitions.bin",
+        { "path": "firmware/c3/wifi_web9.ino.partitions.bin",
           "offset": 32768 
         },
         { "path": "firmware/c3/boot_app0.bin",
           "offset": 57344 
         },
-        { "path": "firmware/c3/Hercules_iremote_oled.ino.bin",
+        { "path": "firmware/c3/wifi_web9.ino.bin",
           "offset": 65536 
         }
       ]
