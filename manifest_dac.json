@@ -1,6 +1,6 @@
 {
   "name": "DAC_firmware",
-  "version": "2021.10.3",
+  "version": "2024.10.3",
   "funding_url": "https://esphome.io/guides/supporters.html",
   "builds": [
     {
